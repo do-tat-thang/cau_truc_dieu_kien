@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let b = parseInt(prompt("Nội mạng/s "));
+    let a = parseInt(prompt("Ngoại mạng/s "));
+    if (b >=60){
+        Sotien= b*8 ;
+    }else if ( b <60){
+        Sotien = b*5 ;
+    }
+    if ( a >= 60){
+        Sotien2 = a*10 ;
+    }else if ( a <60){
+        Sotien2 = a*7 ;
+    }
+    alert (" Sốtiền" + (Sotien + Sotien2));
+</script>
+</body>
+</html>
